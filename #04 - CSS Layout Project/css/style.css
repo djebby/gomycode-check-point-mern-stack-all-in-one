@@ -1,0 +1,26 @@
+body {
+  /* min-height: 5000px; */
+  display: flex;
+  flex-direction: row;
+  color: #747474;
+  font-family: Roboto, Arial, sans-serif;
+  padding-top: 70px;
+}
+
+select {
+  border: 0;
+  color: white;
+  text-decoration: underline;
+}
+
+option {
+  color: black;
+}
+
+.card {
+  color: #747474;
+}
+.card:hover {
+  text-decoration: none;
+  color: #747474;
+}

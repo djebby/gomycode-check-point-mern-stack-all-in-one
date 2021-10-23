@@ -1,0 +1,21 @@
+nav {
+    display: inline;
+}
+nav a{
+    background-color:ghostwhite;
+    color: lightslategray;
+}
+html{
+    font-family: Roboto;
+    text-align: center;
+    justify-content: center;
+}
+h1{
+    color: darkslateblue;
+    
+}
+.first_work{
+    background-color: mintcream;
+    border-style: solid;
+    border-color: peru;
+}

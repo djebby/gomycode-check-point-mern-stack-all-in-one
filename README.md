@@ -1,4 +1,4 @@
-# My Own Solution of All The Checkpoint of GoMyCode's MERN Stack Course
+# My Own Solution For All The Checkpoint of GoMyCode's MERN Stack Course
 
 ![](gmc.jpg)
 
