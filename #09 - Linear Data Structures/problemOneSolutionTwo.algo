@@ -1,0 +1,55 @@
+ALGORITHM problemOneSolutionTwo
+VAR
+	setOne,setTwo : ARRAY_OF INTEGER[10];
+	i,counter : INTEGER := 0;
+	htab := HASH_TABLE<INTEGER,INTEGER>;
+	setOfhtabKeys : ARRAY_OF INTEGER[20];
+	sum : INTEGER := 0;
+BEGIN
+	//Give the Value to setOne and setTwo
+	setOne := [3, 1, 7, 9];  
+	setTwo := [2, 4, 1, 9, 3];
+	
+	/*in this two for loops we will insert 
+	the element of setOne and setTwo into 
+	htab the elements of the arrays will be
+	the key and the value is the number of his
+	repetition in the two arrays. let's start*/
+	
+	FOR i FROM 0 TO setOne.length-1 DO
+		IF (htab.lookup(setOne[i]) = TRUE) THEN
+			counter := htab.get(setOne[i]);
+			htab.insert(setOne[i],counter+1);
+		ELSE
+			htab.insert(setOne[i],1);
+		END_IF
+	END_FOR
+	
+	FOR i FROM 0 TO setTwo.length-1 DO
+		IF (htab.lookup(setTwo[i]) = TRUE) THEN
+			counter := htab.get(setTwo[i]);
+			htab.insert(setTwo[i],counter+1);
+		ELSE
+			htab.insert(setTwo[i],1);
+		END_IF
+	END_FOR
+	
+	/*after the insertion of all element of the two
+	arrays into our Hash Table (htab) we will insert 
+	all his keys in a third array (setOfhtabKeys) */
+	
+	setOfhtabKeys := htab.getKeys();
+	
+	/*now we will loop through htab and sherching for
+	all keys that have a value equale to 1 and add it
+	to the sum */
+	
+	FOR i FROM 0 TO setOfhtabKeys.length-1 DO
+		IF(htab.get(setOfhtabKeys[i] = 1)
+			sum := sum + setOfhtabKeys[i];
+		END_IF
+	END_FOR
+	
+	WRITE(sum);
+	
+END

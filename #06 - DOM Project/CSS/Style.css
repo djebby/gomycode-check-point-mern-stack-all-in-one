@@ -1,0 +1,8 @@
+.totale-price {
+  position: fixed;
+  bottom: 0px;
+  width: 65%;
+}
+body {
+  padding-bottom: 50px;
+}

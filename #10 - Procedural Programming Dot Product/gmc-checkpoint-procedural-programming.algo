@@ -1,0 +1,86 @@
+//*****************************PROCEDURAL*SOLUTION*****************************//
+PROCEDURE dot_product(v1,v2:ARRAY_OF INTEGER[100], VAR ps : INTEGER)
+VAR 
+    i : INTEGER;
+BEGIN
+    IF(v1.length = v2.length) THEN
+        FOR i FROM 0 TO v1.length DO
+            ps := ps + v1[i] * v2[i];
+        END_FOR
+        Write("The Dot Product of your vectors is ",ps);
+    ELSE
+        Write("Vector length not equale");
+    END_IF
+END
+
+ALGORITHM DOT_PRODUCT
+VAR
+    V1,V2 : ARRAY_OF INTEGER[100];
+    ps,n1,n2,i : INTEGER := 0 ; 
+BEGIN
+    Write("Please enter the size of the first vector (max size is 100)");
+    Read(n1);
+    FOR i FROM 0 TO n1 DO
+        Read(V1[i])
+    END_FOR
+
+    Write("Please enter the size of the secend vector (max size is 100)");
+    Read(n2);
+    FOR i FROM 0 TO n2 DO
+        Read(V2[i])
+    END_FOR
+
+    dot_product(V1,V2,ps);
+
+    IF (ps = 0) THEN
+        Write("V1 and V2 are orthogonal");
+    ELSE
+        Write("V1 and V2 are not orthogonal");
+    END_IF
+END
+//*****************************************************************************//
+//*****************************************************************************//
+//*****************************FUNCTIONAL*SOLUTION*****************************//
+//*****************************************************************************//
+//*****************************************************************************//
+FUNCTION dot_product(v1,v2: ARRAY_OF INTEGER[100]): INTEGER
+VAR
+    ps,i : INTEGER := 0;
+BEGIN
+
+    IF(v1.length = v2.length) THEN
+        FOR i FROM 0 TO v1.length DO
+            ps := ps + v1[i] * v2[i];
+        END_FOR
+        RETURN ps;
+    ELSE
+        Write("Vector length not equale");
+        RETURN NaN; //Not a Number
+    END_IF
+END
+
+ALGORITHM DOT_PRODUCT
+VAR
+    V1,V2 : ARRAY_OF INTEGER[100];
+    ps,n1,n2,i : INTEGER := 0 ; 
+BEGIN
+    Write("Please enter the size of the first vector (max size is 100)");
+    Read(n1);
+    FOR i FROM 0 TO n1 DO
+        Read(V1[i])
+    END_FOR
+
+    Write("Please enter the size of the secend vector (max size is 100)");
+    Read(n2);
+    FOR i FROM 0 TO n2 DO
+        Read(V2[i])
+    END_FOR
+
+    ps := dot_product(V1,V2);
+
+    IF (ps = 0) THEN
+        Write("V1 and V2 are orthogonal");
+    ELSE
+        Write("V1 and V2 are not orthogonal");
+    END_IF
+END
