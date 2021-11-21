@@ -1,0 +1,18 @@
+.profile {
+  background-color: #282c34;
+  text-align: center;
+}
+h1 {
+  color: #61dafb;
+}
+
+h2 {
+  color: #fff;
+  background-color: #20232a;
+  padding: 0.8rem;
+}
+
+img {
+  border-radius: 17px;
+  margin: 20px 0;
+}
