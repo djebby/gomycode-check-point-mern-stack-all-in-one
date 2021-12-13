@@ -1,4 +1,4 @@
-# My Own Solution For All The Checkpoint of GoMyCode's MERN Stack Course
+# My Own Solution For All The Checkpoint - Exercices of GoMyCode's MERN Stack Course. :computer:
 
 ![](gmc.jpg)
 
@@ -67,3 +67,11 @@
 ### Checkpoint 32 : Design your application
 
 ### Checkpoint 33 : Develop your application
+
+## :warning: for react, node and express checkpoint don't miss to install all dependencies by running :
+
+```sh
+npm install
+```
+
+# :v: Goodluck
