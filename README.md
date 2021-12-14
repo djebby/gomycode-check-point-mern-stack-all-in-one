@@ -68,7 +68,7 @@
 
 ### Checkpoint 33 : Develop your application
 
-## :warning: for react, node and express checkpoint don't miss to install all dependencies by running :
+## :warning: for react and express checkpoint don't miss to install all dependencies by running :
 
 ```sh
 npm install
