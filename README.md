@@ -68,10 +68,12 @@
 
 ### Checkpoint 33 : Develop your application
 
-## :warning: for react and express checkpoint don't miss to install all dependencies by running :
+## :warning: for react and express checkpoints you can simply download the entire project folder and then, simply open the terminal, navigate into the project folder and run :
 
 ```sh
 npm install
 ```
+##This will install all the third-party packages which are required since the attached folder does not come with a node modules folder because that would unnecessarily bloat the attachment.
+##npm install simply installs all packages and recreates the node modules folder.
 
 # :v: Goodluck
