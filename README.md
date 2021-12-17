@@ -73,7 +73,7 @@
 ```sh
 npm install
 ```
-##This will install all the third-party packages which are required since the attached folder does not come with a node modules folder because that would unnecessarily bloat the attachment.
-##npm install simply installs all packages and recreates the node modules folder.
+## This will install all the third-party packages which are required since the attached folder does not come with a node modules folder because that would unnecessarily bloat the attachment.
+## npm install simply installs all packages and recreates the node modules folder.
 
 # :v: Goodluck
