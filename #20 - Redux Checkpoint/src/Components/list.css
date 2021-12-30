@@ -1,0 +1,22 @@
+ul p {
+    color:#FFF;
+    display: inline;
+    font-size:xx-large;
+    margin-right: 1rem;
+}
+ul li {
+    list-style-type: none;
+    margin:1rem;
+}
+
+ul button {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50% 50%;
+    cursor: pointer;
+    border: none;
+}
+
+ul button:hover{
+    background-color: #61dafb;
+}

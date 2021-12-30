@@ -77,3 +77,11 @@ npm install
 ## npm install simply installs all packages and recreates the node modules folder.
 
 # :v: Goodluck
+
+made with 
+
+                ▀██▀─▄███▄─▀██─██▀██▀▀█
+                ─██─███─███─██─██─██▄█
+                ─██─▀██▄██▀─▀█▄█▀─██▀█
+                ▄██▄▄█▀▀▀─────▀──▄██▄▄█      
+                                                by me  :kissing_heart:
