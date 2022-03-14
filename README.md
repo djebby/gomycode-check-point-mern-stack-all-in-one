@@ -40,7 +40,7 @@
 
 ### Checkpoint 19 : React Router Checkpoint
 
-### Checkpoint 20 : Redux Checkpoint ( coming soon... )
+### Checkpoint 20 : Redux Checkpoint
 
 ### Checkpoint 21 : API Checkpoint
 
