@@ -2,7 +2,7 @@
 INSERT ALL 
 INTO products VALUES ('1','RJ-45 Network Cable(1m)',6,'Computer')
 INTO products VALUES ('2','The Rise of Modern Japan',25,'Courses')
-INTO products VALUES ('3','Understanding Calculuc 2',56,'Courses')
+INTO products VALUES ('3','Understanding Calculus II',56,'Courses')
 SELECT * FROM dual;
 
 --------------INSERT MANY ROWS IN CUSTOMERS-------------
