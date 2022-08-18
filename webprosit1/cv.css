@@ -1,0 +1,34 @@
+ page{
+   width: 780px;
+   margin: auto;
+   font-family: 'source sans pro', calibri, tahama, sans-serif;
+   font-size: 16px;
+}
+
+.infophoto{
+    height: 250px;
+}
+
+.info{
+    float: left;
+}
+
+.photo{
+    float: right;
+}
+
+.section{
+    margin-bottom: 70px;
+}
+
+.sec-gauche3{
+    float: right;
+}
+
+.sec-gauche2{
+    float: right;
+}
+
+.sec-gauche1{
+    float: right;
+}
